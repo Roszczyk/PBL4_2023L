@@ -1,0 +1,10 @@
+11:37:04 **** Incremental Build of configuration Debug for project PBL4_W6 ****
+make -j12 all 
+arm-none-eabi-size   PBL4_W6.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5944	     20	   1572	   7536	   1d70	PBL4_W6.elf
+Finished building: default.size.stdout
+ 
+
+11:37:04 Build Finished. 0 errors, 0 warnings. (took 325ms)
+

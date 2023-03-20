@@ -1,0 +1,90 @@
+Finished building target: PBL4_W6.elf
+ 
+arm-none-eabi-size   PBL4_W6.elf 
+arm-none-eabi-objdump -h -S  PBL4_W6.elf  > "PBL4_W6.list"
+   text	   data	    bss	    dec	    hex	filename
+   3792	     20	   1572	   5384	   1508	PBL4_W6.elf
+Finished building: default.size.stdout
+ 
+Finished building: PBL4_W6.list
+ 
+
+11:24:14 Build Finished. 0 errors, 0 warnings. (took 2s.415ms)
+
+11:24:15 **** Incremental Build of configuration Release for project PBL4_W6 ****
+make -j12 all 
+arm-none-eabi-size   PBL4_W6.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3792	     20	   1572	   5384	   1508	PBL4_W6.elf
+Finished building: default.size.stdout
+ 
+11:24:35 **** Incremental Build of configuration Debug for project PBL4_W6 ****
+make -j12 all 
+arm-none-eabi-size   PBL4_W6.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5944	     20	   1572	   7536	   1d70	PBL4_W6.elf
+Finished building: default.size.stdout
+ 
+11:25:23 **** Incremental Build of configuration Debug for project PBL4_W6 ****
+make -j12 all 
+arm-none-eabi-size   PBL4_W6.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5944	     20	   1572	   7536	   1d70	PBL4_W6.elf
+Finished building: default.size.stdout
+ 
+11:27:57 **** Incremental Build of configuration Debug for project PBL4_W6 ****
+make -j12 all 
+arm-none-eabi-size   PBL4_W6.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5944	     20	   1572	   7536	   1d70	PBL4_W6.elf
+Finished building: default.size.stdout
+ 
+11:28:54 **** Incremental Build of configuration Debug for project PBL4_W6 ****
+make -j12 all 
+arm-none-eabi-size   PBL4_W6.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5944	     20	   1572	   7536	   1d70	PBL4_W6.elf
+Finished building: default.size.stdout
+ 
+11:29:20 **** Incremental Build of configuration Debug for project PBL4_W6 ****
+make -j12 all 
+arm-none-eabi-size   PBL4_W6.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5944	     20	   1572	   7536	   1d70	PBL4_W6.elf
+Finished building: default.size.stdout
+ 
+11:29:36 **** Incremental Build of configuration Debug for project PBL4_W6 ****
+make -j12 all 
+arm-none-eabi-size   PBL4_W6.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5944	     20	   1572	   7536	   1d70	PBL4_W6.elf
+Finished building: default.size.stdout
+ 
+11:34:34 **** Incremental Build of configuration Debug for project PBL4_W6 ****
+make -j12 all 
+arm-none-eabi-size   PBL4_W6.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5944	     20	   1572	   7536	   1d70	PBL4_W6.elf
+Finished building: default.size.stdout
+ 
+11:36:22 **** Incremental Build of configuration Debug for project PBL4_W6 ****
+make -j12 all 
+arm-none-eabi-size   PBL4_W6.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5944	     20	   1572	   7536	   1d70	PBL4_W6.elf
+Finished building: default.size.stdout
+ 
+11:36:48 **** Incremental Build of configuration Debug for project PBL4_W6 ****
+make -j12 all 
+arm-none-eabi-size   PBL4_W6.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5944	     20	   1572	   7536	   1d70	PBL4_W6.elf
+Finished building: default.size.stdout
+ 
+11:37:04 **** Incremental Build of configuration Debug for project PBL4_W6 ****
+make -j12 all 
+arm-none-eabi-size   PBL4_W6.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5944	     20	   1572	   7536	   1d70	PBL4_W6.elf
+Finished building: default.size.stdout
+ 
