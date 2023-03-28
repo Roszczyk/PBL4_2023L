@@ -1,0 +1,12 @@
+10:37:03 **** Incremental Build of configuration Debug for project PBL4_diodka ****
+make -j12 all 
+arm-none-eabi-gcc "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L073xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.d" -MT"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o"
+arm-none-eabi-gcc -o "PBL4_diodka.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\mikol\OneDrive\Pulpit\pbl\4\PBL4_2023L\STMdioda\STM32L073RZTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PBL4_diodka.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+c:\st\stm32cubeide_1.12.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\bin\ld.exe: ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o: in function `HAL_GPIO_EXTI_Callback':
+C:/Users/mikol/OneDrive/Pulpit/pbl/4/PBL4_2023L/STMdioda/Debug/../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c:518: undefined reference to `x'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: PBL4_diodka.elf] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+10:37:03 Build Failed. 3 errors, 0 warnings. (took 648ms)
+
