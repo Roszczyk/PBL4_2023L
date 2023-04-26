@@ -1,0 +1,16 @@
+{
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "idf.adapterTargetName": "esp32",
+    "idf.customExtraPaths": "C:\\Users\\mikol\\esp\\.espressif\\tools\\xtensa-esp-elf-gdb\\11.2_20220823\\xtensa-esp-elf-gdb\\bin;C:\\Users\\mikol\\esp\\.espressif\\tools\\riscv32-esp-elf-gdb\\11.2_20220823\\riscv32-esp-elf-gdb\\bin;C:\\Users\\mikol\\esp\\.espressif\\tools\\xtensa-esp32-elf\\esp-2022r1-11.2.0\\xtensa-esp32-elf\\bin;C:\\Users\\mikol\\esp\\.espressif\\tools\\xtensa-esp32s2-elf\\esp-2022r1-11.2.0\\xtensa-esp32s2-elf\\bin;C:\\Users\\mikol\\esp\\.espressif\\tools\\xtensa-esp32s3-elf\\esp-2022r1-11.2.0\\xtensa-esp32s3-elf\\bin;C:\\Users\\mikol\\esp\\.espressif\\tools\\riscv32-esp-elf\\esp-2022r1-11.2.0\\riscv32-esp-elf\\bin;C:\\Users\\mikol\\esp\\.espressif\\tools\\esp32ulp-elf\\2.35_20220830\\esp32ulp-elf\\bin;C:\\Users\\mikol\\esp\\.espressif\\tools\\cmake\\3.24.0\\bin;C:\\Users\\mikol\\esp\\.espressif\\tools\\openocd-esp32\\v0.11.0-esp32-20221026\\openocd-esp32\\bin;C:\\Users\\mikol\\esp\\.espressif\\tools\\ninja\\1.10.2;C:\\Users\\mikol\\esp\\.espressif\\tools\\idf-exe\\1.0.3;C:\\Users\\mikol\\esp\\.espressif\\tools\\ccache\\4.6.2\\ccache-4.6.2-windows-x86_64;C:\\Users\\mikol\\esp\\.espressif\\tools\\dfu-util\\0.9\\dfu-util-0.9-win64;C:\\Users\\mikol\\esp\\.espressif\\tools\\esp-rom-elfs\\20220823",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "C:\\Users\\mikol\\esp\\.espressif\\tools\\openocd-esp32\\v0.11.0-esp32-20221026/openocd-esp32/share/openocd/scripts",
+        "IDF_CCACHE_ENABLE": "1",
+        "ESP_ROM_ELF_DIR": "C:\\Users\\mikol\\esp\\.espressif\\tools\\esp-rom-elfs\\20220823/"
+    },
+    "idf.espIdfPathWin": "C:\\Users\\mikol\\esp\\esp-idf",
+    "idf.openOcdConfigs": [
+        "board/esp32-bridge.cfg"
+    ],
+    "idf.pythonBinPathWin": "C:\\Users\\mikol\\esp\\.espressif\\python_env\\idf5.0_py3.8_env\\Scripts\\python.exe",
+    "idf.toolsPathWin": "C:\\Users\\mikol\\esp\\.espressif"
+}
